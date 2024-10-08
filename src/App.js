@@ -1,17 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import PartOne from './components/PartOne';
+import Home from './Pages/Home';
+import TopicBox from './components/TopicBox';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>This is my first react project</h1>
-      <PartOne/>
-      <PartOne/>
-      <PartOne/>
-      <PartOne/>
+      <Home/>
+      
+    
     </div>
   );
 }
-
 export default App;
